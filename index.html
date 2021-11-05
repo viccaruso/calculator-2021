@@ -21,14 +21,21 @@
     <main>
         <section class="main-section">
             <input id='first-num' type="number" placeholder="Enter a number">
-            <div class='radio-buttons'>
-                <input type="radio" name="Selection" id="radio-add">Add (+)</input>
-                <input type="radio" name="Selection" id="radio-subtract">Subtract (-)</input>
-                <input type="radio" name="Selection" id="radio-multiply">Multiply (×)</input>
-                <input type="radio" name="Selection" id="radio-divide">Divide (÷)</input>
-            </div>
+            <h6>----------</h6>
             <input id='second-num' type="number" placeholder="Enter a number">
-            <button id='action-button'>Action!</button>
+            <div class='radio-buttons'>
+                <span>Operation:</span><br>
+                <div id='margin-div'>
+                    <input type="radio" name="Selection" id="radio-add">Add (+)</input><br>
+                    <hr>
+                    <input type="radio" name="Selection" id="radio-subtract">Subtract (-)</input><br>
+                    <hr>
+                    <input type="radio" name="Selection" id="radio-multiply">Multiply (×)</input><br>
+                    <hr>
+                    <input type="radio" name="Selection" id="radio-divide">Divide (÷)</input><br>
+                </div>
+            </div>
+            <button id='action-button'>Compute!</button>
             <div id='result'></div>
         </section>
     </main>
