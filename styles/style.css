@@ -111,3 +111,11 @@ footer {
     }
 
   }
+
+  .radio-buttons {
+      font-size: 1.2em;
+  }
+
+  #margin-div {
+      margin: 0px 0 15px 0;
+  }
