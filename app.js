@@ -37,7 +37,11 @@ actionButtonEl.addEventListener('click', () => {
         resultEl.textContent = `Result: ${multiply(firstValue, secondValue)}`;
     } else if (divideRadioEl.checked) {
         if (secondValue !== 0) {
-            resultEl.textContent = `Result: ${divide(firstValue, secondValue)}`;
+            if (remainder(firstValue, secondValue)) {
+                resultEl.textContent = `Result: ${divide(firstValue, secondValue)} (or ${parseInt(divide(firstValue, secondValue))} with ${remainder(firstValue, secondValue)} remaining).`;
+            } else {
+                resultEl.textContent = `Result: ${divide(firstValue, secondValue)}`;
+            }
         } else {
             resultEl.textContent = `Result: You can't divide by zero!`;
         }
