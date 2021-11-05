@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { add, subtract, multiply, divide, remainder } from '../mathactions.js';
+import { add, subtract, multiply, divide, remainder } from './mathactions.js';
 
 const firstInputEl = document.getElementById('first-num');
 const secondInputEl = document.getElementById('second-num');
