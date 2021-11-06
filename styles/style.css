@@ -119,3 +119,28 @@ footer {
   #margin-div {
       margin: 0px 0 15px 0;
   }
+
+  #hr-one {
+    height: 5px;
+    background-color: red;
+  }
+
+  #hr-two {
+      height: 5px;
+      background-color: orange;
+  }
+
+  #hr-three {
+    height: 5px;
+    background-color: yellow;
+}
+
+#hr-four {
+    height: 5px;
+    background-color: green;
+}
+
+#hr-five {
+      height: 5px;
+      background-color: blue;
+  }
