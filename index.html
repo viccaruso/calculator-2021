@@ -20,27 +20,58 @@
     </header>
     <main>
         <section class="main-section">
-            <input id='first-num' type="number" placeholder="Enter a number">
-            <br>
-            <input id='second-num' type="number" placeholder="Enter a number">
-            <br>
-            <div class='radio-buttons'>
-                <span>Select an operation:</span><br>
-                <div id='margin-div'>
-                    <hr id='hr-one'>
-                    <input type="radio" name="Selection" id="radio-add">Add (+)</input><br>
-                    <hr id='hr-two'>
-                    <input type="radio" name="Selection" id="radio-subtract">Subtract (-)</input><br>
-                    <hr id='hr-three'>
-                    <input type="radio" name="Selection" id="radio-multiply">Multiply (×)</input><br>
-                    <hr id='hr-four'>
-                    <input type="radio" name="Selection" id="radio-divide">Divide (÷)</input><br>
-                    <hr id='hr-five'>
+            <div id='numpad'>
+                <div class='number-button' id='one'>
+                    <button>1</button>
+                </div>
+                <div class='number-button' id='two'>
+                    <button>2</button>
+                </div>
+                <div class='number-button' id='three'>
+                    <button>3</button>
+                </div>
+                <div class='number-button' id='four'>
+                    <button>4</button>
+                </div>
+                <div class='number-button' id='five'>
+                    <button>5</button>
+                </div>
+                <div class='number-button' id='six'>
+                    <button>6</button>
+                </div>
+                <div class='number-button' id='seven'>
+                    <button>7</button>
+                </div>
+                <div class='number-button' id='eight'>
+                    <button>8</button>
+                </div>
+                <div class='number-button' id='nine'>
+                    <button>9</button>
+                </div>
+                <div class='number-button' id='zero'>
+                    <button>0</button>
                 </div>
             </div>
-            <button id='action-button'>Compute!</button>
-            <div id='result'></div>
+            <div id='operations'>
+                <div class='number-button' id='plus'>
+                    <button>+</button>
+                </div>
+                <div class='number-button' id='minus'>
+                    <button>-</button>
+                </div>
+                <div class='number-button' id='multiply'>
+                    <button>×</button>
+                </div>
+                <div class='number-button' id='divide'>
+                    <button>÷</button>
+                </div>
+            </div>
         </section>
+        <div>
+            <input id='input' type="text" size="20" disabled>
+                <button id='equals'>=</button>
+        </div>
+        <button id='reset'>Reset</button>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
