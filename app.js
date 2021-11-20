@@ -131,13 +131,13 @@ equalsButtonEl.addEventListener('click', () => {
             textFieldEl.setAttribute('placeholder', (Number(rightSide) + Number(leftSide)));
             break; 
         case '-':
-            textFieldEl.setAttribute('placeholder', (Number(rightSide) - Number(leftSide)));
+            textFieldEl.setAttribute('placeholder', (Number(leftSide) - Number(rightSide)));
             break; 
         case '*':
             textFieldEl.setAttribute('placeholder', (Number(rightSide) * Number(leftSide)));
             break; 
         case '/':
-            textFieldEl.setAttribute('placeholder', (Number(rightSide) / Number(leftSide)));
+            textFieldEl.setAttribute('placeholder', (Number(leftSide) / Number(rightSide)));
             break; 
     }
 });
